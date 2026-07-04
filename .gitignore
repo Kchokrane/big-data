@@ -1,0 +1,33 @@
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Java / Maven
+target/
+*.class
+*.jar
+
+# Local environment
+.env
+.env.*
+!.env.example
+
+# Airflow local runtime
+logs/
+plugins/
+airflow.db
+
+# TP5 Kafka runtime artifacts
+TP 5 - Traitement de flux avec Kafka Streams/logs/
+TP 5 - Traitement de flux avec Kafka Streams/kafka-streams-state/
+TP 5 - Traitement de flux avec Kafka Streams/*-out.txt
+
+# Hadoop/Spark local volumes and checkpoints
+**/volumes/
+**/checkpoints/
