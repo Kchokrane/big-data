@@ -1,0 +1,15 @@
+Resultat attendu pour la commande:
+hdfs fsck /exercice/raw/clients.csv -files -blocks -locations
+
+Important:
+- Lance cette commande dans le conteneur namenode.
+- Remplace le contenu de ce fichier par la sortie reelle de ta machine.
+
+Commande:
+docker compose exec namenode bash -lc "hdfs fsck /exercice/raw/clients.csv -files -blocks -locations"
+
+Checklist de validation:
+- Le fichier /exercice/raw/clients.csv est detecte.
+- Le nombre de blocs est affiche.
+- Les emplacements des blocs sont affiches.
+- Le facteur de replication est visible (3 attendu apres setrep).
