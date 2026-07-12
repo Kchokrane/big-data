@@ -5,7 +5,7 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>ma.rafik</groupId>
+    <groupId>ma.chokrane</groupId>
     <artifactId>TP4_kafka-streams</artifactId>
     <version>1.0-SNAPSHOT</version>
 
@@ -95,7 +95,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>ma.rafik.exercice3.producer.ClickProducerApp</mainClass>
+                    <mainClass>ma.chokrane.exercice3.producer.ClickProducerApp</mainClass>
                 </configuration>
             </plugin>
 
