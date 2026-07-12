@@ -30,7 +30,7 @@ def preparation_donnees():
         writer = csv.writer(file)
         writer.writerows(ventes)
 
-    print("Donnees preparees avec succes.")
+    print("Donnes preparees avec succes.")
 
 
 def validation_donnees():
